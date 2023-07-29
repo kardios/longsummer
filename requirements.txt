@@ -1,0 +1,7 @@
+streamlit
+openai
+scipy
+networkx
+langchain
+tiktoken
+PyPDF2
