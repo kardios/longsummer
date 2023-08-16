@@ -312,7 +312,7 @@ def summarize_stage_2(stage_1_outputs, topics, summary_num_words = 250):
 st.sidebar.write("**Settings**")
 Option_Input = st.sidebar.radio("Input", ('pdf','text'))
 
-st.write("**LongSummer**")
+st.write("**LongSummer** : AI-Powered Longform Article Summarizer by **Sherwood Analytica**")
 
 if Option_Input == 'pdf':
   uploaded_file = st.file_uploader("**Upload** the PDF document you want me to analyse for you.", type = "pdf")
