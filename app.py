@@ -328,7 +328,7 @@ if Option_Input == 'pdf':
 if Option_Input == 'text':
   raw_text = st.text_area("**Enter** the text you want me to analyse in the box below.")
 
-if st.button('Let\'s Go!'):
+if st.button('Let\'s Go :rocket:'):
 
   txt = raw_text
 
