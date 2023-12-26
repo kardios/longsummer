@@ -20,7 +20,8 @@ from PyPDF2 import PdfReader
 
 API_KEY = os.environ["OPENAI_KEY"]
 openai.api_key = API_KEY
-MODEL_NAME = "text-davinci-003"
+MODEL_NAME = "gpt-3.5-turbo-instruct"
+#MODEL_NAME = "text-davinci-003"
 
 #############
 # FUNCTIONS #
